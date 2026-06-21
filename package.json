@@ -1,0 +1,21 @@
+{
+  "name": "hubspot-csv-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-ready Next.js app for dynamic CSV mapping to HubSpot contacts, companies, deals, and associations.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "latest",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
